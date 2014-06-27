@@ -1,0 +1,33 @@
+{
+    "name": "litgroup/http-client-bundle",
+    "description": "React http-client integration for Symfony2.",
+    "keywords": ["http", "client", "async", "react"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Shamritskiy",
+            "email": "roman@litgroup.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/framework-bundle": "~2.3",
+        "react/http-client": "0.4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*@stable"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "LitGroup\\Bundle\\HttpClientBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
