@@ -1,6 +1,8 @@
 LitGroupHttpClientBundle
 ========================
 
+🚫 **(This project is no longer maintained.)**
+
 This bundle integrates [React Http Client][1] into the Symfony 2 environment.
 
 [![Latest Stable Version](https://poser.pugx.org/litgroup/http-client-bundle/v/stable.svg)](https://packagist.org/packages/litgroup/http-client-bundle)
